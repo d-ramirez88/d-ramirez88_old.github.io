@@ -4,3 +4,9 @@ h2 {
 	background-color: yellow;
 	font-family: Times, Arial, Cursive;
 }
+img{
+	width:500px;
+	border:solid;
+	border-color:black;
+	border-width:5px;
+}
