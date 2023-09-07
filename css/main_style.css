@@ -12,9 +12,17 @@ nav a {
 	background:#B91372;
 	color:#FDFFFC;
 	border-radius:5px;
+	transition:all .5s ease-out;
+	transform-style: preserve-3d;
 }
+
+nav a:hover{
+	padding:20px;
+	background:#41EAD4;
+}
+
 h2 {
-	color: #41EAD4;
+	color: #FDFFFC;
 	font-family: Times, Arial, Cursive;
 }
 
@@ -32,8 +40,13 @@ img{
 	border:solid;
 	border-color:#FDFFFC;
 	border-width:5px;
-	width:350px;
+	width:200px;
+	transition:1s ease;
 }
+img:hover{
+	transform:rotate(180deg);
+}
+
 figcaption{
 	color:#FDFFFC;
 	font-size:150%;
